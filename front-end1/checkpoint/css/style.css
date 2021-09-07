@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  box-sizing: border-box;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Urbanist:ital,wght@1,200&display=swap');
+
+
+header {
+  width: 100vw;
+  height: 15vh;
+  background-color: rgb(109, 109, 255);
+  display: flex;
+  justify-content: right;
+  position: fixed;
+}
+
+header img {
+  position: absolute;
+  width: 18vh;
+  margin-right: 80vw;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  border-radius: 0.4rem;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  margin-right: 2rem;
+  width: 60vw;
+  /* padding: 0.2em 3em; */
+  font-family: 'Roboto', sans-serif;
+}
+
+li {
+  padding-right: 20px;
+}
+
+section {
+  margin-top: 20vh;
+}
+
+a {
+  
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  /* background-color: black; */
+  font-size: 1rem;
+  /* padding: 0.5em; */
+  transition-property: all;
+
+  transition-duration: 0.5s;
+}
+a:hover {
+  color: rgba(64, 64, 230, 0.75);
+  background-color: white;
+  border-radius: 6px;
+}
+
+main {
+  box-sizing: content-box;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+iframe {
+  border-radius: 1rem;
+  width: 70vw;
+  height: 70vh;
+  margin-bottom: 2vh;
+}
+
+#history {
+  width: 70vw;
+  text-align: center;
+  margin-bottom: 5vh;
+}
+
+.card {
+  border-radius: 0.5rem;
+  width: 70vw;
+  margin-bottom: 8vh;
+}
+
+div h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: .8rem;
+  color: rgba(30, 30, 177, 0.75);
+  
+}
+
+img {
+  border-radius: 0.6em;
+  width: 100%;
+  margin-bottom: 0.4em;
+  /* position: relative; */
+}
+
+
+
+h1,
+p {
+  color: rgba(29, 29, 216, 0.75);
+  padding: 0.2em;
+  font-family: 'Urbanist', sans-serif;
+}
+
+aside {
+  position:fixed;
+  margin-right: 95vw;
+  margin-left: 5vw;
+  margin-top: 75vh;
+  z-index: 100;
+
+}
+
+aside img {
+    width: 2.8rem;
+    height: 2.8rem;
+  
+}
+
+footer {
+  width: 100vw;
+  height: 30vh;
+  position: absolute;
+  background-color: grey;
+  padding-top: 40px ;
+}
+
+footer p  {
+  text-align: center;
+  font-size: 1em;
+  color: whitesmoke;
+  font-family: 'Roboto', sans-serif;
+}

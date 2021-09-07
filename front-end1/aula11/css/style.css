@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    height: 1000px;
+  }
+  
+  .box {
+    width: 150px;
+    height: 150px;
+    padding: 40px;
+    border: rgb(188, 236, 11) 5px solid;
+    background-color: rgb(15, 164, 233);
+    font-size: 45px;
+    text-align: center;
+  }
+  
+  .content{
+      border: black 5px solid;
+
+  }
+  
+  #div1{
+      position: absolute;
+      top: 0px;
+      left: 0px;
+
+  }
+
+  #div2{
+      position: absolute;
+      right: 0px;
+      top: 0px;
+}
+
+#div3{
+      position: fixed;
+      left: 45%;
+      bottom: 0%;
+}
