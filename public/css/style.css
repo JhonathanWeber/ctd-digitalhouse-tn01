@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body {
+    
+}
+
+header {
+    background-color: rgb(120, 97, 224);
+    width: 95vw;
+    margin-left: 5vw;
+    height: 8vh;
+}
+
+
+
+main {
+    background-color:gray;
+    display:flex;
+    justify-content: center;
+    width: 100%;
+    height: 86vh;
+    padding: 2%;
+    
+}
+
+#barra-lateral {
+    position: absolute;
+    margin-left: -100;
+    background-color:yellow;
+    width: 5vw;
+    height: 100vh;
+
+
+}
+
+section {
+    
+    background-color: white;
+    width: 100%;
+    height: 100%;  
+    
+
+}
+
+footer {
+    background-color: red;
+    width: 100%;
+    height: 6vh;
+}
+
+
