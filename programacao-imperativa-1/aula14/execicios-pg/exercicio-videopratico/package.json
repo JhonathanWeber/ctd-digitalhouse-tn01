@@ -1,0 +1,11 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "exercicio pratico da aula 14 - do video explicativo sobre modulo",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "author": "Jhonathan Weber",
+  "license": "ISC"
+}
