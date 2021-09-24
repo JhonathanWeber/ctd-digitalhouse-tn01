@@ -1,0 +1,61 @@
+/* * {
+  box-sizing: border-box;
+} */
+
+section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  border: 1px solid rgb(109, 49, 170);
+  width: 60%;
+  height: 100%;
+  border-radius: 10px;
+  padding: 2%;
+}
+
+img {
+  margin: 10px;
+  width: 200px;
+  transition: all 1s;
+}
+
+img.one:hover {
+  animation: animationOne 2s both;
+}
+
+img.two:hover {
+  animation: animationTwo 0.5s normal;
+}
+
+img.tree:hover {
+    animation: animationTree 0.5s both;
+  }
+
+@keyframes animationOne {
+  0% {
+    opacity: 0%;
+  }
+  50% {
+    opacity: 100%;
+    transform: scale(1.3);
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+@keyframes animationTwo {
+   0% {transform:rotate(360deg)}
+ 
+}
+
+@keyframes animationTree {
+    0% {transform: translatey(0px)}
+    100% {transform: translatey(-20px)}
+}
+
