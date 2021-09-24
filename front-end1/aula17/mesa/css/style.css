@@ -2,6 +2,40 @@
   box-sizing: border-box;
 } */
 
+header{
+    display: flex;
+    justify-content:end;
+}
+
+h1.one {
+    animation: deslizar1 5s normal;
+}
+
+h1.two {
+    animation: deslizar2 5s normal;
+    
+}
+
+h1.tree {
+    animation: zoonOut 5s normal;
+}
+
+header button{
+    width: 10vw;
+    height: 5vh;
+    background-color: red;
+    transition: all 0.81s;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+header button:hover {
+    background-color: rebeccapurple;
+    color: white;
+    font-size: x-large;
+}
+    
 section {
   display: flex;
   align-items: center;
@@ -56,3 +90,19 @@ img.tree:hover {
     100% {transform: translatey(-20px)}
 }
 
+@keyframes deslizar1 {
+    0% {transform: translatex(5000px)}
+    20% {transform: translatex(-10px)}
+    30% {transform: translatex(5px)}
+}
+@keyframes deslizar2 {
+    0% {transform: translatex(-5000px)}
+    20% {transform: translatex(10px)}
+    30% {transform: translatex(-5px)}
+}
+
+@keyframes zoonOut {
+    0% {transform: scale(200)}
+    10% {transform: scale(1)}
+    30% {transform: }
+}
