@@ -8,9 +8,12 @@
     <title>aula17</title>
   </head>
   <body>
+    <header>
+         <button href="https://jhonathanweber.github.io/ctd-digitalhouse-tn01/front-end1/aula17/mesa/">Reload</button>
+    </header>
     <main>
         <section>
-               <h1>Zoom with Scale and Fade-in with Opacity</h1>
+               <h1 class="one">Zoom with Scale and Fade-in with Opacity</h1>
                <div>
                 <img class="one"
                 src="https://u7.uidownload.com/vector/856/110/vector-vector-nature-landscape-illustration-svg-ai.jpg"
@@ -31,7 +34,7 @@
         </section>
 
         <section>
-            <h1>Rotate</h1>
+            <h1 class="two">Rotate</h1>
             <div>
                 <img class="two"
                 src="https://u7.uidownload.com/vector/856/110/vector-vector-nature-landscape-illustration-svg-ai.jpg"
@@ -53,7 +56,7 @@
         </section>
 
         <section>
-            <h1>Transform: Translate Y</h1>
+            <h1 class="tree">Transform: Translate Y</h1>
             <div>
                 <img class="tree"
                 src="https://u7.uidownload.com/vector/856/110/vector-vector-nature-landscape-illustration-svg-ai.jpg"
@@ -73,6 +76,7 @@
             </div>
            
         </section>
-        </main>
+     </main>
+
     </body>
 </html>
