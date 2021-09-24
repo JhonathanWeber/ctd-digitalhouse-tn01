@@ -9,7 +9,9 @@
   </head>
   <body>
     <header>
-         <button href="https://jhonathanweber.github.io/ctd-digitalhouse-tn01/front-end1/aula17/mesa/">Reload</button>
+        <button>
+            <a href="https://jhonathanweber.github.io/ctd-digitalhouse-tn01/front-end1/aula17/mesa/">Reload</a>
+        </button>
     </header>
     <main>
         <section>
