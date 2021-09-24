@@ -25,27 +25,24 @@ img {
 }
 
 img.one:hover {
-  animation: animationOne 2s both;
+  animation: animationOne 0.8s both;
 }
 
 img.two:hover {
-  animation: animationTwo 0.5s normal;
+  animation: animationTwo 0.4s both;
 }
 
 img.tree:hover {
-    animation: animationTree 0.5s both;
+    animation: animationTree 0.45s both;
   }
 
 @keyframes animationOne {
   0% {
     opacity: 0%;
   }
-  50% {
-    opacity: 100%;
-    transform: scale(1.3);
-  }
   100% {
     opacity: 100%;
+    transform: scale(1.3);
   }
 }
 
