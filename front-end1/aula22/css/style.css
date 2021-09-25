@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-
+ 
 
 
   body {
@@ -38,7 +38,8 @@
   nav li {
     display: inline;
     list-style: none;
-    argin-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding: 0 10vw;
   }
   
   li a {
@@ -76,7 +77,11 @@
     margin-top: 2rem;
     margin-bottom: 1rem;
   }
+  
+  main p {
+    text-align: justify;
 
+  }
   .centralizar {
     display: flex;
     justify-content: center;
@@ -97,6 +102,30 @@
       "h h h"
       "a m m";
   }
+
+  main img {
+    width: 50%;
+  }
+
+
+  aside {
+    background-color: rgb(1, 63, 62);
+    grid-area: a;
+    height: 100%;
+
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    
+  }
+
+  nav li {
+    display: block;
+    list-style: none;
+    margin-top: 1rem;
+  }
+ 
+  
 
 }
 
