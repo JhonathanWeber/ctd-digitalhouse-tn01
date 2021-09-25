@@ -17,11 +17,20 @@ main {
 
 header {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   background-color: rgb(216, 38, 38);
   width: 100%;
-  height: 8vh;
+  height: 10%;
+}
+
+header h1 {
+ margin-right: 10px;
+}
+
+.logo img {
+  margin: 2px 0px 0px 10px;
+  width: 10%;
 }
 
 section {
@@ -40,11 +49,12 @@ section {
   flex-wrap: wrap;
 }
 
-section div {
+div img {
+  width: 300px;
 }
 
 .card {
-    margin-top: 5vh;
+  margin-top: 10px;
   /* background-color: grey; */
   display: flex;
   min-width: 300px;
@@ -54,6 +64,7 @@ section div {
 }
 
 .card-content {
+  
   /* background-color: red; */
   width: 100%;
   flex-grow: 2;
@@ -62,5 +73,5 @@ section div {
 .card-footer {
   /* background-color: yellow; */
   width: 100%;
-  flex-grow: 2;
+  flex-grow: 1;
 }

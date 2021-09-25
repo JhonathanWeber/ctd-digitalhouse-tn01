@@ -10,6 +10,11 @@ header{
     justify-content:end;
 }
 
+#logo {
+  position: fixed;
+  width: 5vw;
+}
+
 a {
     text-decoration: none;
     color: white;

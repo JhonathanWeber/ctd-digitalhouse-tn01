@@ -7,7 +7,7 @@
 body {
   color: white;
   display: grid;
-  grid-template-columns: 10vw 1fr;
+  grid-template-columns: 20vw 1fr;
   grid-template-areas:
     "h h h"
     "a m m";
@@ -19,18 +19,22 @@ header {
   height: 8vh;
 }
 
+header img {
+  width: 7vh;
+  margin-right: 10px;
+}
+
 aside {
   background-color: rgb(1, 63, 62);
   grid-area: a;
   height: 100%;
+  max-width: 150px;
 
-  font-size: xx-large;
+  font-size: 4vh;
   display: flex;
   justify-content: center;
 
   padding-top: 2rem;
-
-  
 }
 
 nav li {
@@ -43,22 +47,18 @@ li a {
   text-decoration: none;
   border-radius: 0.5rem;
   transition: all 0.5s;
-
-
 }
 
 li a:hover {
-  background-color:rgb(0, 170, 168);
+  background-color: rgb(0, 170, 168);
   padding-left: 3vw;
   padding-right: 1vw;
   color: rgb(1, 63, 62);
- 
-
 }
 
 li a:focus {
-    background-color:rgb(0, 170, 168);
-  padding-left:4vw;
+  background-color: rgb(0, 170, 168);
+  padding-left: 4vw;
   padding-right: 1vw;
   color: rgb(1, 63, 62);
 }
@@ -78,12 +78,17 @@ main h1 {
   margin-bottom: 1rem;
 }
 
+main p {
+  
+  text-align: justify;
+}
+
 .centralizar {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-main.centralizar{
+main.centralizar {
   display: block;
 }

@@ -4,96 +4,100 @@
   box-sizing: border-box;
 }
 
- 
+header img {
+  width: 7vh;
+  margin-right: 10px;
+}
 
+body {
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas:
+    "h"
+    "a"
+    "m";
+}
 
-  body {
-    color: white;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas:
-      "h"
-      "a"
-      "m";
-  }
+header {
+  background-color: rgb(92, 121, 120);
+  grid-area: h;
+  height: 10vh;
+}
 
-  header {
-    background-color: rgb(92, 121, 120);
-    grid-area: h;
-    height: 10vh;
-  }
+header img {
+  width: 7vh;
+  margin-right: 10px;
+}
 
-  aside {
-    background-color: rgb(1, 63, 62);
-    grid-area: a;
-    height: 100%;
+aside {
+  background-color: rgb(1, 63, 62);
+  grid-area: a;
+  height: 100%;
 
-    font-size: large;
-    display: flex;
-    justify-content: center;
-    
-  }
-  
-  nav li {
-    display: inline;
-    list-style: none;
-    margin-bottom: 0.5rem;
-    padding: 0 10vw;
-  }
-  
-  li a {
-    color: white;
-    text-decoration: none;
-    border-radius: 0.5rem;
-    transition: all 0.5s;
-  }
+  font-size: large;
+  display: flex;
+  justify-content: center;
+}
 
-  li a:hover {
-    background-color: rgb(0, 170, 168);
-    padding-left: 3vw;
-    padding-right: 1vw;
-    color: rgb(1, 63, 62);
-  }
+nav li {
+  display: inline;
+  list-style: none;
+  margin-bottom: 0.5rem;
+  padding: 0 10vw;
+}
 
-  li a:focus {
-    background-color: rgb(0, 170, 168);
-    padding-left: 4vw;
-    padding-right: 1vw;
-    color: rgb(1, 63, 62);
-  }
+li a {
+  color: white;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  transition: all 0.5s;
+}
 
-  main {
-    color: black;
-    margin: 5% 10% 5%;
-    flex-direction: column;
-  }
+li a:hover {
+  background-color: rgb(0, 170, 168);
+  padding-left: 3vw;
+  padding-right: 1vw;
+  color: rgb(1, 63, 62);
+}
 
-  main img {
-    width: 80%;
-  }
+li a:focus {
+  background-color: rgb(0, 170, 168);
+  padding-left: 4vw;
+  padding-right: 1vw;
+  color: rgb(1, 63, 62);
+}
 
-  main h1 {
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-  }
-  
-  main p {
-    text-align: justify;
+main {
+  color: black;
+  margin: 5% 10% 5%;
+  flex-direction: column;
+}
 
-  }
-  .centralizar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+main img {
+  width: 80%;
+}
 
-  main.centralizar {
-    display: block;
-  }
+main h1 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+main p {
+  text-align: justify;
+}
+.centralizar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main.centralizar {
+  display: block;
+}
 
 @media (min-width: 768px) {
-
   body {
     color: white;
     display: grid;
@@ -107,7 +111,6 @@
     width: 50%;
   }
 
-
   aside {
     background-color: rgb(1, 63, 62);
     grid-area: a;
@@ -116,7 +119,6 @@
     font-size: x-large;
     display: flex;
     justify-content: center;
-    
   }
 
   nav li {
@@ -124,8 +126,4 @@
     list-style: none;
     margin-top: 1rem;
   }
- 
-  
-
 }
-
