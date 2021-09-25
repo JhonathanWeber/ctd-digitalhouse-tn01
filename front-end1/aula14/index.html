@@ -5,27 +5,80 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Cup-Cake</title>
+    <title>gFutureDevs</title>
   </head>
   <body>
     <header>
-      <img src="" alt="" />
-      <h1>+doce</h1>
+      <img src="img/logo1-512px.png" alt="" />
+      <h1>gFutureDevs+doce</h1>
       <h3>Levando energia pra sua vida</h3>
     </header>
     <main>
       <section>
-        <fieldset>
-          <legend>Dados Pessoais</legend>
-          <label for="email">Email:</label>
-          <input type="email" name="email" id="email" />
-          <label for="nome">Nome:</label>
-          <input type="text" name="nome" id="nome" />
-          <label for="end">Endereço:</label>
-          <textarea id="end" name="end"></textarea>
-          <input type="number" name="" id="">
-        </fieldset>
+        <form action="" method="post">
+          <fieldset>
+            <legend>Dados Pessoais</legend>
+            <div>
+              <label for="email">Email:</label>
+              <input type="email" name="email" id="email" />
+            </div>
+            <div>
+              <label for="nome">Nome:</label>
+              <input type="text" name="nome" id="nome" />
+            </div>
+            <div>
+              <label for="end">Endereço:</label>
+              <input type="text" name="end" id="end" maxlength="60" />
+            </div>
+            <div>
+              <label for="whats">WhatsApp</label>
+              <input type="text" name="whats" id="whats"/>
+            </div>
+          </fieldset>
 
+          <fieldset>
+            <legend>Escolha Seu Doce</legend>
+            <select name="doce" id="doce">
+              <optgroup label="Chocolate">
+                <option value="">Escolha uma opção</option>
+                <option value="1">Meio amargo</option>
+                <option value="2">Ao Leite</option>
+                <option value="3">Branco</option>
+              </optgroup>
+              <optgroup label="Tradicionais">
+                <option value="4">Maria Mole</option>
+                <option value="5">Paçoca</option>
+                <option value="6">Suspiro</option>
+                <option value="7">marshmallow</option>
+              </optgroup>
+            </select>
+          </fieldset>
+
+          <fieldset>
+            <legend>Embalagem</legend>
+            <input type="checkbox" name="guardanapo" id="guardanapo"></input>
+            <label for="guardanapo">Guardanapo</label>
+            <input type="checkbox" name="casquinha" id="casquinha"></input>
+            <label for="casquinha">Pote Casquinha</label>
+          </fieldset>
+
+          <fieldset>
+            <legend>Pagamento</legend>
+            <input type="radio" name="Pagamento" id="dinheiro">
+            <label for="dinheiro">Dinheiro</label>
+            <input type="radio" name="Pagamento" id="debito">
+            <label for="debito">Débito</label>
+            <input type="radio" name="Pagamento" id="pix">
+            <label for="pix">Pix</label>
+            <input type="radio" name="Pagamento" id="credito">
+            <label for="credito">Crédito</label>
+          </fieldset>
+          
+          <div class="button">
+            <button type="submit">Finalizar Pedido</button>
+            <button type="reset">Cancelar</button>
+          </div>
+        </form>
       </section>
     </main>
   </body>
